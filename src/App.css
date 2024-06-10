@@ -53,7 +53,7 @@
 }
 
 #pista-uno{
-  background: linear-gradient(135deg, #D7DA3F, #f4f44e);
+  background: linear-gradient(135deg, #D7DA3F, rgb(253, 253, 56));
 }
 
 #pista-dos{
@@ -66,4 +66,22 @@
 
 #pista-cuatro{
   background: linear-gradient(135deg, #4DBE46, #089F78);
+}
+
+.form select, .form input{
+  display: block;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.form{
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input{
+  margin-top: 10px;
 }
