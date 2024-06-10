@@ -1,38 +1,69 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 85%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.pista{
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
   text-align: center;
+  margin-bottom: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pista-contenido{
+  padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pista p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px 50% 50% 50%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pista h1{
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pista h2{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.censored {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+  /* O */
+  filter: blur(5px); /* Efecto de desenfoque */
+}
+
+#pista-uno{
+  background: linear-gradient(135deg, #D7DA3F, #f4f44e);
+}
+
+#pista-dos{
+  background: linear-gradient(135deg, #0369C2, #20ACE4);
+}
+
+#pista-tres{
+  background: linear-gradient(135deg, #F2393D, #F97931);
+}
+
+#pista-cuatro{
+  background: linear-gradient(135deg, #4DBE46, #089F78);
 }
