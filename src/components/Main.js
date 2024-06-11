@@ -28,10 +28,23 @@ const Main = () => {
                         <h2>Ils ne mentent jamais...</h2>
                     </div>
                 </div>
-                <div className='pista' id='pista-cuatro'>
+                <div className='pista' id='pista-tres'>
                     <p>4#</p>
                     <div className='pista-contenido'>
+                        <h1>¿7+6?</h1>
+                        <h2>¿3+3?</h2>
+                    </div>
+                </div>
+                <div className='pista' id='pista-cuatro'>
+                    <p>5#</p>
+                    <div className='pista-contenido'>
                         <CountdownTimer targetDay={4} />
+                    </div>
+                </div>
+                <div className='pista' id='pista-cuatro'>
+                    <p>5#</p>
+                    <div className='pista-contenido'>
+                        <CountdownTimer targetDay={5} />
                     </div>
                 </div>
                 {/* <ul className='pistas-adicionales'>
