@@ -35,6 +35,13 @@ const Main = () => {
                         <h2>¿3+3?</h2>
                     </div>
                 </div>
+                <div className='pista' id='pista-cinco'>
+                    <p>5#</p>
+                    <div className='pista-contenido'>
+                        <h1>Entre líneas y números, se esconde un mensaje que revela nuestra próxima aventura.</h1>
+                        <h2>¿Estás listo para descifrar el enigma y sumergirte en un mundo de emociones?</h2>
+                    </div>
+                </div>
                {/*  <div className='pista orange' id='pista-cuatro'>
                     <p>5#</p>
                     <div className='pista-contenido'>

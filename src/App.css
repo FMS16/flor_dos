@@ -69,8 +69,8 @@
 }
 
 
-.pista-cuatro{
-  
+#pista-cinco{
+  background: linear-gradient(135deg, #ffb83d, #ffb013);
 }
 
 .form select, .form input{
