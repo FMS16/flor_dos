@@ -42,6 +42,13 @@ const Main = () => {
                         <h2>Al descifrarla, descubrirás un mundo de sentimientos (que no serán raros)</h2>
                     </div>
                 </div>
+                <div className='pista' id='pista-seis'>
+                    <p>5#</p>
+                    <div className='pista-contenido'>
+                        <h1>¿13/6?</h1>
+                        <h2>¿No sent&iacute;s verguenza de no adivinarlo a&uacute;n...?</h2>
+                    </div>
+                </div>
                {/*  <div className='pista orange' id='pista-cuatro'>
                     <p>5#</p>
                     <div className='pista-contenido'>

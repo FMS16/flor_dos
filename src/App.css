@@ -73,6 +73,10 @@
   background: linear-gradient(135deg, #ffb83d, #ffb013);
 }
 
+#pista-seis{
+  background: linear-gradient(135deg, #cf30ff, #ff13e0);
+}
+
 .form select, .form input{
   display: block;
   margin-bottom: 10px;
