@@ -38,8 +38,8 @@ const Main = () => {
                 <div className='pista' id='pista-cinco'>
                     <p>5#</p>
                     <div className='pista-contenido'>
-                        <h1>Entre líneas y números, se esconde un mensaje que revela nuestra próxima aventura.</h1>
-                        <h2>¿Estás listo para descifrar el enigma y sumergirte en un mundo de emociones?</h2>
+                        <h1>Nuestra próxima aventura consta de una palabra con 11 letras.</h1>
+                        <h2>Al descifrarla, descubrirás un mundo de sentimientos (que no serán raros)</h2>
                     </div>
                 </div>
                {/*  <div className='pista orange' id='pista-cuatro'>
